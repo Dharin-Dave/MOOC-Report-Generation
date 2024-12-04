@@ -1,0 +1,123 @@
+INTRODUCTION: This course focuses on the foundational concepts of MLOps, emphasizing the application of theory to solve real-world problems and the essential skills needed to deploy machine learning models effectively.
+Understanding MLOps
+The course begins with an introduction to MLOps, exploring its definition and significance in the current technological landscape.
+Key concepts of MLOps are discussed, including the integration of theory and practice to address specific challenges.
+Essential Skills and Knowledge
+Essential math and data science topics are covered to ensure learners can effectively engage with machine learning, including optimization and heuristics.
+Practical applications of machine learning and AI are examined, providing insights into their real-world usage.
+Operations Pipelines and Deployment
+The course delves into operations pipelines, highlighting the similarities between DevOps, DataOps, and MLOps, and the importance of understanding operational mindsets.
+Learners will explore containerization for machine learning, focusing on how to package and deploy models efficiently in cloud environments.
+Remember, this journey is about mastering the concepts and applying them effectively. Don't hesitate to ask questions or seek clarification as you progress! You've got this!
+
+INTRODUCTION: This material emphasizes the importance of continuous improvement in MLOps, drawing parallels with the Japanese automobile industry and the DevOps methodology.
+Kaizen and Continuous Improvement
+The Japanese automobile industry utilizes the concept of Kaizen, which focuses on continuous improvement and quality control in production processes.
+This philosophy has influenced MLOps, which aims to enhance the efficiency and effectiveness of machine learning operations.
+Core Components of DevOps
+DevOps incorporates key elements such as infrastructure as code, allowing for programmatic deployment of infrastructure.
+Continuous integration and deployment are essential, enabling automatic testing and updates of code in production environments.
+MLOps Framework
+MLOps can be viewed as a combination of four equal parts: 25% DevOps, 25% data operations, 25% model improvement, and 25% business requirement framing.
+This framework highlights the importance of rapid changes and adaptability in machine learning processes, inheriting principles from both DevOps and historical automation practices.
+INTRODUCTION: This material focuses on the key trends and strategies in MLOps, emphasizing the importance of a comprehensive approach to operationalizing machine learning models.
+Understanding MLOps
+MLOps combines various disciplines, including DevOps, data engineering, and business problem framing, each contributing equally to successful machine learning operations.
+The rise in demand for cloud computing roles highlights the growing importance of MLOps, with significant salary potential for certified professionals.
+MLOps Strategy and Technology
+Selecting the right technology partner is crucial; primary platforms should be cost-effective, popular, and feature-rich, while secondary platforms can address specific needs.
+Organizations should focus on hiring and upskilling strategies, encouraging certifications, and fostering a culture of continuous learning through tech talks and goal setting.
+Future Trends in MLOps
+Key trends include the resurgence of file systems for cloud development, the continued relevance of Kubernetes, and the rise of edge-based machine learning.
+Sustainability and governance are becoming increasingly important, alongside advancements in AutoML and model portability, which streamline the machine learning process.
+INTRODUCTION: This material focuses on the key components of DevOps, emphasizing the integration of software engineering best practices, a culture of continuous improvement, and automation.
+Software Engineering Best Practices
+DevOps incorporates software engineering best practices, which serve as a checklist for building projects effectively.
+Following these practices ensures that the development process is streamlined and efficient.
+Cultural Mandate: Kaizen
+The culture within an organization plays a crucial role in DevOps, with a focus on continuous improvement, known as Kaizen.
+This cultural aspect encourages teams to consistently seek ways to enhance processes and outcomes.
+Automation and Feedback Loop
+Automation is a core element of DevOps, particularly through Continuous Integration and Continuous Delivery (CI/CD).
+The combination of best practices, culture, and automation creates a feedback loop essential for successful DevOps implementation.
+INTRODUCTION: This material focuses on the concept of DataOps, which applies the principles of DevOps to data systems, emphasizing automation, collaboration, and continuous improvement.
+Understanding DataOps
+DataOps is rooted in the principles of DevOps, aiming to automate and enhance the lifecycle of data systems.
+It encourages collaboration among team members and aims to break down silos within organizations.
+Importance of Data Systems
+Organizations increasingly rely on data for various purposes, including historical analysis, real-time insights, and predictive analytics.
+Data operations focus on making continuous improvements to data systems, ensuring they become cleaner and more efficient over time.
+Goals of DataOps
+The strategy promotes daily and weekly enhancements to data products and systems.
+Effective communication and goal-setting within organizations are essential to maximize the value derived from data automation and improvements.
+INTRODUCTION: This material provides an overview of the Cloud MLOps landscape, highlighting key components and trends essential for effective machine learning operations.
+Cloud Infrastructure and Services
+Elastic storage systems allow for scalable object and mounted storage, providing near-infinite access to disk I/O, CPU, and GPU resources.
+Serverless and containerized managed services, such as AWS Lambda and Google Cloud Functions, enhance the cloud computing experience by building on existing infrastructure.
+Integrated Tools and Development Environments
+Cloud providers offer integrated tools and SDKs in cloud shells and development environments, enabling rapid application development.
+Data query tools and dashboards, like Amazon Athena and Google BigQuery, facilitate SQL queries against distributed storage systems.
+MLOps Platforms and Specialized Solutions
+Most cloud providers feature MLOps platforms that include experiment tracking, model registries, and inference capabilities.
+Third-party vendors, such as Databricks and Snowflake, complement cloud services with specialized solutions for data operations and monitoring.
+
+
+
+INTRODUCTION: This material focuses on the MLOps maturity models from major vendors, highlighting the phases of development from basic to advanced automation in machine learning operations.
+AWS MLOps Maturity Model
+The initial phase emphasizes the ability to experiment, which is crucial for operationalizing models.
+Progressing to repeatability involves standardizing code and using platforms for deployment, leading to more models in production.
+Microsoft MLOps Maturity Model
+Phase 1 indicates no MLOps, where deployment is challenging and teams are disjointed.
+As organizations advance, they achieve automated training and model deployment, resulting in trivial releases and fully automated systems.
+Google MLOps Maturity Model
+Level 0 is characterized by manual processes with a clear separation between machine learning and operations.
+The final phase includes CI/CD pipeline automation, achieving 100% end-to-end automation for model training and deployment.
+
+
+INTRODUCTION: This material focuses on the core concepts of DevOps, particularly the importance of continuous integration, testing, and setting up a cloud-based development environment.
+Continuous Integration and Testing
+Continuous integration allows developers to automatically test their code, ensuring it works before deployment. This feedback loop is essential for maintaining code quality.
+Testing is a mandatory component of continuous delivery, preventing the replication of faulty code into production environments.
+Setting Up a Cloud-Based Development Environment
+Using cloud-based development environments like GitHub Codespaces or AWS Cloud9 simplifies the setup process and provides all necessary tools for coding and testing.
+Creating a Python virtual environment is crucial for managing dependencies and ensuring reliability in your projects.
+Project Scaffolding and Best Practices
+Establishing a project structure with a Makefile and requirements file helps streamline development and testing processes.
+Utilizing tools like pytest for testing and pylint for linting ensures code quality and adherence to best practices, making it easier to identify and fix issues.
+
+
+INTRODUCTION: This material focuses on creating a text summarization application using transformers and Gradio, along with deploying it through MLOps practices.
+Building the Application
+The application code utilizes transformers to load models from TensorFlow and Gradio for the user interface.
+A predict function is implemented to summarize text, and the interface is launched with just a few lines of code.
+Setting Up the Environment
+The command make install is used to set up a powerful cloud development environment, allowing for efficient application development.
+The application successfully summarizes text into concise, logical sentences.
+Deploying the Application
+To deploy the application, access tokens are created on Hugging Face for GitHub actions.
+The access token is then added as a secret in the application's repository settings, enabling deployment capabilities.
+
+
+INTRODUCTION: This material focuses on creating and using a Makefile, which is essential for setting up build steps in projects, particularly in Unix-type environments.
+Creating a Makefile
+The Makefile must be named specifically with an uppercase "M" and can be created using the touch command to make an empty file.
+You can add commands to the Makefile, such as a simple "hello" command using echo, which allows you to encapsulate and simplify complex processes.
+Running Commands with Makefile
+After saving the Makefile, you can run commands like make hello to execute the defined tasks.
+You can also set up installation commands, such as a placeholder for a pip install command, which can be executed with make install.
+Version Control Integration
+It's a good practice to add the Makefile to version control using commands like git add, commit, and push, ensuring that your setup is tracked and can be built upon in future steps.
+This process lays the groundwork for more complex build and installation steps as you progress in your project.
+
+
+INTRODUCTION: This material focuses on the three essential files in a Python project: the Makefile, Dockerfile, and requirements.txt file, which are crucial for automation, containerization, and managing package dependencies.
+Makefile
+A Makefile automates various tasks such as installation, linting, and deployment, simplifying complex processes into easy commands.
+It acts like a recipe, allowing developers to execute commands without needing to remember every detail.
+Dockerfile
+The Dockerfile is vital for defining the runtime environment, enabling projects to be containerized and deployed efficiently.
+It specifies the base image and necessary commands to set up the environment, ensuring consistency across different deployments.
+requirements.txt
+This file lists the Python package dependencies and allows developers to pin version numbers, preventing issues with package compatibility in the future.
+It automates the process of managing dependencies, making it easier to maintain projects over time.
