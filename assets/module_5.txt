@@ -1,0 +1,145 @@
+INTRODUCTION: This material highlights the advantages of transitioning from Python to Rust, emphasizing Rust's modern features and efficiencies that can enhance programming practices.
+Advantages of Rust
+Rust benefits from being a newer language, allowing it to incorporate best practices from older languages, particularly in packaging through its cargo system.
+It offers exceptional performance and energy efficiency, comparable to C and C++, making it ideal for cost-effective applications.
+Concurrency and Safety
+Rust simplifies multi-threaded programming, overcoming Python's Global Interpreter Lock limitations, allowing for efficient use of system resources.
+The language is designed with safety in mind, incorporating cybersecurity features that make it a secure choice for systems programming.
+User-Friendly Delivery
+Rust allows for easy distribution of compiled binaries, making it accessible for non-technical users to run applications without complex setups.
+The integration of AI tools like GitHub Copilot enhances the coding experience, enabling Python programmers to transition smoothly to Rust.
+INTRODUCTION: This material highlights the exciting integration of Copilot within the GitHub ecosystem, particularly for Python programmers transitioning to Rust, showcasing the advantages of modern programming tools and languages.
+Leveraging Copilot and GitHub
+Using Copilot with Visual Studio Code and GitHub Codespaces enhances productivity and allows for rapid project setup and testing.
+The combination of these tools provides a powerful environment for developers, making it easier to manage dependencies and configurations.
+Transitioning from Python to Rust
+Rust offers significant performance improvements over Python, including better energy efficiency and memory usage, while maintaining security through its compiler.
+Python programmers can apply their existing knowledge to Rust, making the transition smoother and more intuitive.
+Building a Rust Project
+The process of creating a new Rust project involves using templates and commands like cargo new, which simplifies project structure and dependency management.
+Copilot assists in generating code snippets and boilerplate, allowing developers to focus on logic and functionality while benefiting from a fast feedback loop during development.
+INTRODUCTION: This material focuses on leveling up from the Python packaging system to the Rust ecosystem, highlighting the simplicity and efficiency of using Rust's cargo and crate system for building web microservices.
+Rust packaging and ecosystem
+Rust's crate system allows for easy access to a growing number of libraries, making it simple to install and use various utilities for web development and other applications.
+The Rust ecosystem is experiencing rapid growth, potentially outpacing Python in terms of library adoption and usage.
+Building a web microservice with Rust
+Creating a microservice in Rust involves using frameworks like Actix Web, which offers a straightforward setup similar to Python's Flask or FastAPI.
+The process includes defining functions for mathematical operations and exposing them through a web service, demonstrating the intuitive syntax of Rust.
+Deployment and efficiency
+Rust's cargo system simplifies deployment by automatically creating binaries, allowing developers to focus on building applications without worrying about complex installation paths.
+The confidence in Rust's performance is reinforced by its strong linting and compilation processes, ensuring that once the code passes these checks, it is likely to run successfully.
+INTRODUCTION: This material emphasizes the importance of considering energy efficiency and computational performance when choosing programming languages, particularly in the context of transitioning from Python to Rust.
+Energy Efficiency Comparison
+Studies show that C and Rust are the most energy-efficient programming languages, performing equivalently in terms of energy usage and computational time.
+Python, while popular, uses approximately 70 times more energy and takes about 70 times longer for equivalent tasks compared to C and Rust.
+Computational Performance Insights
+Python is not ideal for heavy computational loads, especially in scenarios like matrix multiplication, where Rust can be up to 62,000 times faster than native Python code.
+The global interpreter lock in Python limits its ability to perform multithreaded programming efficiently, leading to higher memory usage.
+Sustainability Considerations
+Organizations should consider the carbon footprint of their code and the potential cost savings from switching to more efficient languages like Rust.
+Tools like Copilot can assist developers in making this transition, allowing for a more sustainable and efficient coding practice.
+INTRODUCTION: This material emphasizes the importance of a systems programming approach to MLOps, highlighting the differences between Python and Rust in terms of performance and efficiency.
+Systems Programming and MLOps
+A production-first mindset is crucial in MLOps, similar to systems programming challenges seen in operating systems like Linux.
+Performance is critical when training machine learning models, as it involves handling large datasets and computational resources efficiently.
+Python vs. Rust
+Python excels in readability and ease of use for non-computationally expensive tasks, but it struggles with high-performance multithreading and energy efficiency.
+Rust, on the other hand, is designed for high performance, energy efficiency, and safe multithreaded programming, making it more suitable for MLOps.
+Key Takeaways
+Python is widely successful but may not be the best choice for all MLOps tasks due to its limitations in speed and efficiency.
+Rust offers a modern solution for MLOps, focusing on sustainability and performance, which is essential in today's computational landscape.
+INTRODUCTION: This material focuses on building a unit test for a Rust project, emphasizing the creation of a library and the importance of testing in software development.
+Creating a Rust Project
+Start by creating a new Rust project using cargo new, followed by navigating into the project directory.
+Set up the project structure by creating a tests directory for test files and a src/lib.rs file for library code.
+Implementing Library Functions
+Develop simple mathematical functions such as add, subtract, multiply, and divide in the library file.
+Use the use statement to import the library functions into the test file for testing purposes.
+Testing and Continuous Integration
+Utilize a Makefile to streamline the testing process, allowing for easy execution of tests and linting.
+Ensure that all tests pass successfully, indicating that the library functions are working correctly and ready for integration into a build system.
+
+
+INTRODUCTION: This material focuses on the significance of data engineering using Rust, highlighting its advantages over traditional scripting languages like Python, particularly in building high-performance tools.
+Data Engineering with Rust
+Rust is identified as a systems programming language that excels in data engineering tasks, allowing for efficient memory usage and high performance, especially when handling large datasets.
+The ability to create multi-threaded applications in Rust can lead to significant performance improvements, making it suitable for tasks like deduplication and data transformation.
+Building High-Performance Tools
+The process of creating a deduplication tool in Rust is outlined, emphasizing the importance of a well-structured development environment, including the use of makefiles for building and testing.
+Key features of the tool include a progress bar, efficient memory usage, and the capability to utilize all available CPU cores, which enhances performance during data operations.
+Code Structure and Execution
+The code organization is discussed, with a focus on separating logic into libraries and executing commands through a command-line interface, making it easy to adapt for various data engineering tasks.
+The simplicity of the Rust code is highlighted, showing that it can be as straightforward as Python while providing the added benefits of performance and memory efficiency.
+INTRODUCTION: This material focuses on the advantages of using Rust for machine learning operations (MLOps) and how it can enhance the efficiency of deploying machine learning models in production.
+Benefits of Rust in MLOps
+Rust offers significant performance advantages, being up to 70 times faster than Python for many operations, making it ideal for high-performance machine learning tasks.
+The language supports binary portability, allowing models to be packaged and deployed easily, which is crucial for production environments.
+Building a Lyrics Analyzer
+The example presented involves creating a lyrics analyzer that interacts with a SQL database, showcasing how Rust can efficiently handle large datasets, such as millions of songs.
+By leveraging Rust's multithreading capabilities, the transcription and classification of lyrics can be performed in a memory-efficient manner, reducing computational costs.
+Utilizing Hugging Face with Rust
+Rust has strong bindings for popular machine learning libraries like Hugging Face, enabling seamless integration for tasks such as zero-shot classification of song lyrics.
+The process involves setting up a project structure, importing necessary libraries, and implementing code that resembles Python syntax, making it accessible for those familiar with Python.
+INTRODUCTION: This material highlights the exciting advancements in deep learning, particularly the integration of Rust with PyTorch for high-performance machine learning applications.
+Deep Learning and Rust
+Deep learning technologies, such as large language models and text-to-image generation, are gaining popularity, with Rust offering significant performance advantages.
+Rust can be up to 70 times faster than Python for certain tasks, making it an excellent choice for high-performance research environments.
+Using PyTorch with Rust
+The tch-rs package allows seamless integration of Rust with PyTorch, enabling GPU operations and model training.
+Setting up the environment involves configuring an environmental variable and installing PyTorch, which facilitates the use of pre-trained models and Stable Diffusion.
+Practical Application: Stable Diffusion
+The process of generating images using Stable Diffusion in Rust involves running commands that leverage GPU capabilities for efficient image creation.
+Users can easily prototype and experiment with different prompts, showcasing the rapid development potential of Rust in machine learning applications.
+INTRODUCTION: This material focuses on building a stress test tool for CUDA-enabled GPUs using Rust and PyTorch bindings, highlighting the architecture and implementation steps involved.
+Architecture of the Stress Test Tool
+Access to a CUDA-enabled GPU is essential, which can be achieved through platforms like GitHub Code spaces, AWS, GCP, or Azure.
+The tool utilizes NVIDIA SMI Monitoring to observe GPU utilization during stress testing.
+Implementation Steps
+The Rust project is structured with a Cargo file that includes dependencies for command-line tools, PyTorch bindings, and Rayon for multi-threading.
+The library code contains functions for CPU and GPU load tests, with multi-threading implemented using into_par_iter.
+Execution and Monitoring
+The tool allows execution through three sub-commands: CPU, GPU, and TGPU (multi-threaded GPU).
+Monitoring the CPU and GPU during tests reveals how effectively resources are utilized, with the potential to offload work from the CPU to the GPU for better performance.
+INTRODUCTION: This material focuses on implementing MLOps inference using the ONNX model format with AWS services, particularly emphasizing the use of serverless technology through AWS Lambda and EFS.
+Setting Up EFS and AWS Lambda
+To begin, you need to create an EFS mount point and ensure your development environment, like AWS Cloud9, is set up to mount the EFS volume.
+It's crucial to expose port 5049 for communication between Cloud9 and AWS Lambda, and to configure the security groups accordingly.
+Configuring the ONNX Runtime
+The ONNX runtime allows for efficient model invocation and supports multiple formats, enhancing performance and reducing size.
+You must set up a VPC for your Lambda function and configure the file system access point to enable the Lambda function to access the EFS.
+Development and Testing
+After copying the ONNX model to EFS, you can write code to perform inference, utilizing a helper method to verify the contents of the mount point.
+A Makefile can streamline testing by allowing you to invoke the Lambda function easily and check the results of the inference.
+INTRODUCTION: This material explores the integration of Rust programming within the Google Cloud Platform, demonstrating how to set up and deploy a Rust application using Cloud Run.
+Setting up Rust in Google Cloud
+The Rust compiler can be easily installed in the Google Cloud environment using simple commands, allowing for quick experimentation.
+A "Hello World" application can be created and run using the cargo command, showcasing the ease of getting started with Rust.
+Using the Cloud Code Editor
+The Cloud Code editor provides a more powerful interface for working with Rust, including features like terminal access and customizable themes.
+Users can create and edit source code directly in the editor, and utilize make files for tasks like formatting and linting.
+Deploying Rust Applications
+The process of creating a Cloud Run app involves configuring a Docker file and adapting existing code to work with Rust.
+Successful deployment of a Rust web service to Cloud Run demonstrates the feasibility of using Rust in cloud environments, with minimal issues encountered during the process.
+INTRODUCTION: This material focuses on the deployment of a containerized Rust microservice using Google Cloud Platform (GCP) and the continuous delivery process involved.
+Architecture Overview
+The application utilizes a continuous delivery model where code changes in GitHub trigger builds in GCP's cloud build environment.
+The Rust microservice is designed for low memory usage and high performance, allowing for constant updates to production.
+Setting Up the Environment
+The process begins by opening the cloud editor and creating a new Cloud Run application, where you can select a template and customize the environment.
+A Docker file is created to build a Rust application, which includes setting up the project structure using cargo.
+Building and Running the Application
+Rust is installed using rustup, and a new project is initialized with cargo new --name webdocker.
+The application code is structured to include web handlers and dependencies, which are managed through the cargo.toml file.
+Deployment Process
+After testing the application locally, it can be deployed to Cloud Run by uploading the containerized application.
+Once deployed, the service can be accessed and tested using curl commands to verify its functionality.
+INTRODUCTION: This material focuses on deploying a microservice using the Rust programming language within the App Engine flexible environment, highlighting the necessary steps and configurations.
+Setting up the environment
+Create a directory named web Docker and navigate into it using the command line.
+Create a configuration file called app.Yaml to specify the runtime and environment settings for App Engine.
+Building the Rust project
+Initialize a new Rust project with cargo init and set the project name to web Docker.
+Add dependencies and create a Docker file to streamline the build process, ensuring it uses the Rust builder and a smaller target.
+Running and deploying the application
+Build the source code, including routes for the web service, and verify functionality by running cargo run.
+Deploy the application to App Engine using the command G Cloud app deploy, adjusting the build timeout as necessary for longer compile processes.

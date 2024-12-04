@@ -1,0 +1,186 @@
+INTRODUCTION: This material highlights the advantages of using cloud-based developer workspaces, emphasizing their benefits over traditional laptop environments in various fields like software engineering and machine learning.
+Advantages of Cloud Developer Workspaces
+Cloud environments provide a deterministic setup, reducing issues with unwanted packages and costly hardware requirements like GPUs and large SSDs.
+They allow for seamless integration with tools like GitHub actions and GitHub Copilot, enhancing the development experience.
+Key Features of Cloud IDEs
+Popular cloud IDEs include GitHub CodeSpaces, AWS Cloud9, GCP Cloud IDE, and Azure Cloud IDE, each offering customized development environments.
+Notebook-based environments like Colab and AWS Sagemaker Studio Lab provide free access to GPUs for data science workflows.
+Future of Development Environments
+The trend is moving towards powerful, disposable, preloaded environments that are closely integrated with cloud services, making data access more efficient.
+Working in the cloud allows developers to handle large datasets without the hassle of transferring data back and forth, enhancing productivity.
+INTRODUCTION: This material focuses on the GitHub ecosystem and its significance in teaching and implementing MLOps, emphasizing reproducibility, GPU utilization, and continuous integration.
+Reproducibility with Codespaces
+Codespaces provides a cloud-based environment that ensures all team members or students have access to the same setup, enhancing collaboration and consistency.
+It allows customization through container images and configurations, enabling users to tailor their environment to specific needs.
+Utilizing GPUs and AI Tools
+Access to GPUs facilitates the use of pre-trained models and modern AI tools, such as OpenAI Whisper, without the need for expensive hardware.
+Users can work with popular frameworks like PyTorch and TensorFlow, allowing for the development and fine-tuning of deep learning models.
+Continuous Integration and Deployment with GitHub Actions
+GitHub Actions streamlines the process of continuous integration and deployment, allowing users to build, test, and deploy applications seamlessly.
+This integration supports best practices by enabling a smooth transition from development to production environments, ensuring efficiency and reliability.
+INTRODUCTION: This material focuses on creating a new GitHub repository based on a template, allowing for customization and collaboration in project workflows.
+Creating a Repository from a Template
+You can start by selecting a public template, such as the Microsoft Code Spaces teaching template, and clicking "Use this template" to copy files into your new repository.
+When naming your repository, you can customize it (e.g., "mlops template") and choose its visibility (public or private).
+Customizing Your Project
+It's beneficial to add files like makefiles to your project for better organization and automation.
+You can also modify the development container to suit your project's needs, enhancing its functionality.
+Making Your Repository a Template
+By navigating to the repository settings, you can designate your repository as a template, making it available for others to use.
+This feature allows you to share your customized workflow with students or colleagues, promoting collaboration and efficiency in future projects.
+INTRODUCTION: This material focuses on customizing a development environment using Codespaces, which allows for efficient cloud editing and configuration tailored to individual needs.
+Setting up Codespaces
+Users can select from various machine configurations in Codespaces, such as multi-core or GPU options, depending on their project requirements.
+Prebuilt containers can be utilized to speed up the setup process, allowing for automatic environment builds whenever changes are pushed to the main branch.
+Customizing the Development Environment
+Users can modify the devcontainer environment by editing the devcontainer JSON file and adding necessary extensions to enhance functionality.
+Personal preferences, such as color themes for accessibility, can be adjusted to create a comfortable working environment.
+Creating a Template for Others
+By adding configurations and comments in files like the Makefile, users can create templates that guide others on how to install, test, and format their software.
+This collaborative approach ensures that others can benefit from the customized environment and configurations set up by the user.
+INTRODUCTION: This material focuses on Hugging Face, a popular model hosting service that provides essential tools for working with machine learning models, datasets, and fine-tuning processes.
+Key Features of Hugging Face
+Hugging Face hosts over 75,000 pre-trained models that cater to various tasks such as summarization, classification, and question answering.
+Users can experiment with models directly on the platform, making it accessible for both production and experimentation.
+Fine-Tuning Pre-Trained Models
+The process involves downloading a pre-trained model and fine-tuning it to meet specific needs using datasets available on Hugging Face.
+Fine-tuning can be performed in a GitHub Codespace with GPU support, enhancing performance during training.
+Implementation Example
+The code example demonstrates how to import necessary libraries, load datasets, tokenize functions, and set up a model for fine-tuning.
+The training process is initiated with a simple command, and the performance can vary based on whether a GPU or CPU is used.
+INTRODUCTION: This material focuses on utilizing GitHub Copilot and its experimental features to enhance coding efficiency and facilitate language translation between different programming languages.
+Using GitHub Copilot Labs
+GitHub Copilot Labs allows users to translate code between different programming languages, making it easier to learn new languages by leveraging existing knowledge.
+Users can create directories to organize their translated code, such as moving Bash code into a Python or Ruby format for better understanding.
+Building a Calculator with Copilot
+By creating a file for a calculator, users can prompt Copilot to assist in writing functions for addition and subtraction, enhancing the coding process.
+Copilot can also help build command-line tools by generating boilerplate code, allowing users to focus on the specific functionality they want to implement.
+Enhancing Code with Copilot
+Users can refine their prompts to guide Copilot in creating more sophisticated features, such as adding colored output to command-line tools.
+The collaborative nature of Copilot acts like a pair programmer, helping users to quickly build and iterate on their code while learning best practices along the way.
+INTRODUCTION: This material focuses on mastering AWS Lambda functions using Python and integrating them with AWS Step Functions to create powerful workflows with minimal coding.
+Creating a Lambda Function
+To create a Lambda function, select the runtime (e.g., Python 3.9) and name your function. The basic structure includes a handler that processes input events.
+You can build a simple function that checks for specific input (like "cherry") and returns a corresponding message, demonstrating the input-output concept fundamental to software engineering.
+Building a Chef Function
+A second function, called "chef," can process the output from the first function and return different meal suggestions based on the input received.
+This function can be tested with various inputs to see how it responds, allowing for the chaining of functions to create more complex workflows.
+Integrating with Step Functions
+AWS Step Functions allow you to visually design workflows that connect multiple Lambda functions, enhancing the overall functionality.
+By creating a state machine, you can manage the flow of data between functions, making it easier to handle complex operations and automate processes.
+
+
+INTRODUCTION: This material focuses on using Databricks in conjunction with Azure, emphasizing the setup of clusters, integration with GitHub, and managing data engineering tasks effectively.
+Setting up Databricks with Azure
+To start using Databricks, you need to log into Azure and launch a cluster, ensuring it is running to facilitate communication with Databricks.
+It's important to configure advanced options, including server host name and authentication tokens, to establish a successful connection.
+Integrating Databricks with GitHub
+You can set up a GitHub environment to integrate with Databricks, allowing for seamless communication and management of data engineering tasks.
+By using GitHub Codespaces, you can store necessary secrets like Databricks host and token, enabling easy access to your Databricks environment.
+Managing Data with Databricks
+Once the environment is set up, you can interact with the Databricks file system and manage clusters using command-line tools or Python scripts.
+Creating reusable functions and command-line interfaces can streamline your workflow, making it easier to manage and execute data engineering tasks efficiently.
+INTRODUCTION: This material focuses on AWS data ingestion and processing pipelines, highlighting how managed services can simplify complex tasks, particularly in the context of machine learning.
+AWS Batch for Job Processing
+AWS Batch automates the management of recurring jobs by creating job queues that can handle thousands of jobs, processing them based on the number of allowed containers.
+It is particularly effective for machine learning tasks, such as fine-tuning models using GPUs, making it a versatile tool for various applications.
+AWS Step Functions for Orchestration
+AWS Step Functions enable the orchestration of multiple Lambda functions in response to events, such as API calls or data triggers, streamlining the processing of payloads.
+This service provides visibility into the workflow through logs and timing, allowing users to monitor the performance of their processes without needing to build the orchestration infrastructure themselves.
+Reinforcing Learning
+Understanding these AWS services is crucial for building efficient data processing pipelines in MLOps.
+Engaging with the material and practicing the concepts will enhance your mastery of these tools, empowering you to tackle complex data challenges effectively. Remember, I'm here to support your learning journey!
+INTRODUCTION: This material focuses on AWS Step Functions and how they can be used to orchestrate jobs across various AWS services, providing a visual way to design workflows and manage data processing.
+Understanding AWS Step Functions
+AWS Step Functions allow you to visually design a series of choices and create a pipeline that can be executed, providing great instrumentation for monitoring.
+A "Hello World" example demonstrates how to create a simple state machine that includes states like "pass," "wait," and "end," showcasing the flow of execution.
+Building Lambda Functions
+You can create AWS Lambda functions to process data; for example, a function named PreMarco checks for the word "Marco" and returns "Polo."
+Another function, PostMarco, checks for "Polo" and prints a congratulatory message or prompts to keep trying, simulating a more complex data pipeline.
+Creating a State Machine
+By using AWS Step Functions, you can connect the two Lambda functions, PreMarco and PostMarco, to create a cohesive workflow.
+You can execute the state machine with different inputs to see how it processes data, allowing for testing and validation of the entire pipeline.
+INTRODUCTION: This material focuses on the transformative capabilities of AWS Glue in managing data in transit, particularly through its serverless ETL (Extract, Transform, Load) operations.
+Understanding AWS Glue
+AWS Glue is a serverless ETL system that allows you to connect multiple data sources, such as large CSV files in S3 and external databases like PostgreSQL.
+It enables the creation of reusable ETL operations that can continuously update and transform data, ensuring that the latest information is always available.
+Data Transformation and Cataloging
+The Glue operation can be triggered periodically, transforming data and storing it in a new S3 bucket, which helps maintain updated versions of the data.
+AWS Glue also catalogs the data in the bucket, creating a metadata record that allows data scientists to query it using Athena without needing to extract all the data.
+Leveraging Serverless Architecture
+The integration of Glue and Athena provides a powerful serverless solution for data visualization and manipulation, making it easier for organizations to manage their data ecosystem.
+This architecture is a common and straightforward pattern that many organizations can adopt, enhancing their data processing capabilities.
+INTRODUCTION: This material focuses on the powerful capabilities of serverless technology in developing applications quickly on the AWS platform, particularly in the context of a data engineering pipeline.
+Serverless technology in AWS
+Serverless technology allows for rapid application development by automating various processes, reducing the need for server management.
+An example includes using a CloudWatch Timer to trigger actions, such as reading from a DynamoDB table.
+Data processing pipeline
+The data engineering pipeline collects information about police officers and departments, storing it in an SQS system for further processing.
+AWS Lambda is then triggered to analyze the data using the sentiment analysis API, AWS Comprehend, which processes reports and generates insights.
+Output and visualization
+The processed data is stored in S3, where it can be visualized or compiled into reports, such as quarterly summaries of community interactions with police departments.
+The seamless integration of these technologies enables the addition of metadata and attributes dynamically, enhancing the data's usability and insights.
+INTRODUCTION: This material focuses on creating a simple "wikibot" that interacts with the Wikipedia API to retrieve and display text, showcasing how to use libraries in Python for data retrieval.
+Setting up the environment
+Begin by adding the Wikipedia library to your requirements file, which allows you to access Wikipedia's data.
+Use the command make install to install the Wikipedia library, ensuring you have the necessary tools to build your wikibot.
+Building the wikibot
+Import the Wikipedia library in your code to start using its functionalities.
+Utilize interactive coding with IPython to experiment with the code before finalizing it, making it easier to understand how the API works.
+Interacting with the Wikipedia API
+Use the summary function from the Wikipedia library to retrieve information by providing a title and specifying the number of sentences you want.
+Test the API by querying different titles, such as "Google," to see how the library responds and what information it returns.
+INTRODUCTION: This material focuses on utilizing Python libraries like Wikipedia and TextBlob for natural language processing (NLP) tasks, including text summarization and sentiment analysis.
+Using Wikipedia for Text Retrieval
+The wikipedia library allows users to fetch summaries of topics easily, such as "Golden State Warriors," providing a convenient way to gather text data for analysis.
+The wikipedia.summary function can be used to obtain concise information, which can then be assigned to a variable for further processing.
+Implementing TextBlob for Text Analysis
+The TextBlob library simplifies text processing, enabling users to perform tasks like sentiment analysis and extracting noun phrases.
+By importing TextBlob and creating a blob object from the retrieved text, users can access various methods, including blob.sentiment and blob.noun_phrases.
+Building Functions for NLP Logic
+Structuring code with functions allows for better organization and reusability, making it easier to handle different NLP tasks.
+Functions can be created to encapsulate logic for summarizing text, generating TextBlob objects, and extracting phrases, streamlining the overall process of text analysis.
+INTRODUCTION: This material focuses on utilizing Google Cloud Functions to quickly build and deploy serverless applications, showcasing its capabilities for data engineering and rapid prototyping.
+Creating a Cloud Function
+You can create a Cloud Function by specifying its name, region, and trigger type, such as HTTP, Pub/Sub, or Cloud Storage.
+The inline editor is recommended for quick prototyping, and you can install third-party libraries using a requirements.txt file.
+Testing and Invoking Functions
+After deploying a function, you can test it using the console by passing a payload, which the function will process and respond to.
+Functions can also be invoked via command-line tools like gcloud functions call, allowing for flexible integration into workflows.
+Building More Complex Functions
+More complex functions can utilize third-party libraries, such as Wikipedia and Google Cloud Translate, to perform tasks like parsing web pages and natural language processing.
+You can customize function handlers and pass JSON payloads to invoke specific functionalities, enhancing the utility of your applications.
+
+
+INTRODUCTION: This material focuses on utilizing Google Cloud Functions to quickly build and deploy serverless applications, showcasing its capabilities for data engineering and rapid prototyping.
+Creating a Cloud Function
+You can create a Cloud Function by specifying its name, region, and trigger type, such as HTTP, Pub/Sub, or Cloud Storage.
+The inline editor is recommended for quick prototyping, and you can install third-party libraries using a requirements.txt file.
+Testing and Invoking Functions
+After deploying a function, you can test it using the console by passing a payload, which the function will process and respond to.
+Functions can also be invoked via command-line tools like gcloud functions call, allowing for flexible integration into workflows.
+Building More Complex Functions
+More complex functions can utilize third-party libraries, such as Wikipedia and Google Cloud Translate, to perform tasks like parsing web pages and natural language processing.
+You can customize function handlers and pass JSON payloads to invoke specific functionalities, enhancing the utility of your applications.
+
+
+INTRODUCTION: This material focuses on understanding the architecture of Google Cloud Functions, which is essential for grasping how computing works on the Google Cloud Platform.
+Event Triggers
+Google Cloud Functions can be invoked by various event triggers, such as storage events (e.g., uploading files) or a pub-sub system for streaming data.
+An HTTP invocation is a straightforward method where a POST request with a JSON payload can trigger the function.
+Creating a Cloud Function
+Users can create a Cloud Function by selecting the generation type (first gen or second gen) and naming the function, with options for different triggers like HTTP, Pub/Sub, or Firestore.
+A variety of programming languages are supported, including Python, Go, and Ruby, allowing for flexibility in development.
+Testing and Deployment
+After coding the function, users can deploy it and test it using the Cloud Shell or by inputting JSON payloads directly.
+The testing interface allows for easy verification of function behavior, such as returning specific responses based on input values.
+INTRODUCTION: This material focuses on deploying Azure functions using Rust, highlighting the steps involved in creating a function application and the necessary configurations.
+Creating an Azure Function Application
+Start by accessing the Azure portal to create a new function application, ensuring the name is unique across subscriptions.
+Select a custom handler for Rust since it doesn't have direct support as a function runtime.
+Setting Up the Function Project
+Use Visual Studio Code to generate the necessary files for the Azure function, including configuration files like host.json and local.settings.json.
+Ensure to add the required target configuration in the Cargo.toml file for the environmental function to work correctly.
+Deploying the Function
+Utilize GitHub Actions to automate the deployment process, including installing Rust, building the release, and authenticating against Azure.
+After deployment, test the function using an HTTP request to verify that it processes input and returns the expected output.

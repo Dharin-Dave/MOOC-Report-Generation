@@ -1,0 +1,75 @@
+INTRODUCTION: This material focuses on the deployment of containerized machine learning microservices using various cloud platforms and the importance of containers in facilitating efficient workflows.
+Containerization and Cloud Platforms
+Containerization allows for packaging code and runtime together, making it easier to deploy applications across different environments.
+Popular cloud platforms for deploying microservices include AWS App Runner, GCP Cloud Run, and Azure App Services, which support continuous delivery processes.
+Integration with MLOps
+Integrating with an MLOps platform enables the deployment of machine learning models through API calls, enhancing the interaction with deployed services.
+Experiment tracking services can be utilized to automatically select the best-performing model based on metrics, streamlining the deployment process.
+Key Takeaway
+The use of containers is crucial for efficient microservice-based continuous delivery, allowing developers to build and deploy applications seamlessly across various cloud environments. Remember, mastering these concepts will empower you in your learning journey!
+
+
+INTRODUCTION: This material focuses on the process of containerizing a microservice using AWS Elastic Container Registry (ECR) and deploying it with AWS App Runner, highlighting the steps involved in building, tagging, and pushing Docker images.
+Setting up the Container Registry
+Begin by creating a new repository in ECR, such as "mlops-cookbook," to store your microservice and model.
+Use the provided push commands to facilitate the transfer of your Docker images to the ECR.
+Building and Testing the Microservice
+Log in to ECR and utilize a Dockerfile to build your model, ensuring you inherit from the correct Python version and install necessary packages.
+Test the microservice locally to confirm it works before proceeding to containerize it.
+Deploying with AWS App Runner
+After building and tagging your Docker image, push it to the ECR, which allows for continuous delivery.
+Set up an App Runner service that monitors the container registry and automatically deploys new versions when images are pushed.
+Reinforcing Learning
+Understanding the containerization process and deployment strategies is crucial for effective MLOps.
+Engage with the material through hands-on practice and experimentation to solidify your knowledge. Remember, I'm here to support your learning journey!
+
+
+INTRODUCTION: This material focuses on the workflow of containerized continuous delivery for machine learning models, highlighting the benefits of using containers for both traditional and large language models.
+Source Control and Build System
+A source control system, like GitHub, holds the code for microservices, including a Docker file that defines the runtime environment.
+When changes are pushed to the source control, the build system automatically creates a container image that includes the necessary runtime to invoke the machine learning model.
+Container Registry and GPU Serving
+The container image is stored in a container registry on a cloud platform, allowing it to link with a GPU serving endpoint.
+This setup ensures that the runtime is self-contained within the container image, reducing dependency issues.
+Client Invocation and Workflow Efficiency
+Clients can invoke the model using tools like Star Coder, which makes requests to the GPU serving endpoint that references the container image and model location.
+The continuous delivery system minimizes friction in the development process, making deployment and testing straightforward and efficient.
+INTRODUCTION: This material focuses on building a logistics tool that utilizes the Wikipedia library to gather information about cities and perform natural language processing for analysis.
+Building the logistics tool
+The tool is designed to assist users, such as travel agents, in making informed decisions by gathering relevant information about cities.
+A new library called "mylib" is created, specifically for handling Wikipedia searches and summaries.
+Utilizing the Wikipedia library
+The process begins with importing the Wikipedia library to enable searching for web pages related to specific cities.
+Functions are built to return summaries of Wikipedia pages and to search for pages that match a given city name.
+Testing the functionality
+The functionality is tested by importing the search function and executing a search for a term, such as 'Barack', to ensure it returns the expected results.
+Additional functions are created to extract keywords and return the entire page content, enhancing the tool's capabilities.
+differences between Copilot and CodeWhisperer based on the content:
+User Experience:
+Copilot: Generally considered more intuitive and faster in providing suggestions, making it feel more in sync with the user's coding style.
+CodeWhisperer: While it offers high-quality suggestions, users have noted that it may have slower response times and some formatting issues.
+Integration:
+Copilot: Works seamlessly with GitHub and is often preferred for its clean interface and speed.
+CodeWhisperer: Designed specifically for AWS environments, integrating well with Cloud9, but may lack some of the pre-build features found in GitHub Codespaces.
+Functionality:
+Both tools provide AI-assisted coding, but users have reported that Copilot tends to generate code more quickly and efficiently.
+INTRODUCTION: This material highlights the advantages of transfer learning in machine learning, particularly in the context of natural language processing (NLP), and contrasts it with traditional supervised learning.
+Understanding Transfer Learning
+Transfer learning allows models trained on one domain to be fine-tuned for another, reducing the need for extensive computational resources and data.
+In traditional supervised learning, challenges arise from the need for large datasets and significant computational power to train models from scratch.
+Benefits of Fine-Tuning
+Fine-tuning enables the adaptation of pre-trained models, which have been developed by experts, to specific tasks using fewer resources.
+Platforms like Hugging Face facilitate the fine-tuning process, making it accessible for users to create high-quality models efficiently.
+Future of Transfer Learning
+The increasing adoption of transfer learning in various domains suggests a promising future for its application in the marketplace.
+Individuals can engage in transfer learning themselves and contribute fine-tuned models to platforms like Hugging Face, enhancing their skills and knowledge in the field.
+INTRODUCTION: This material focuses on building tools quickly using OpenAI's capabilities, including setting up a project structure, implementing a command-line interface (CLI), and organizing code into libraries.
+Project Setup and Configuration
+The project begins with setting up an OpenAI key and launching a Codespace to access the necessary tools and resources.
+Continuous integration is established to automate workflows, ensuring that the code remains functional and well-organized.
+Building a Command-Line Interface (CLI)
+A question-answering CLI is created, allowing users to input questions and receive answers, demonstrating the integration of OpenAI's capabilities.
+The code is refined for clarity and efficiency, with a focus on maintaining clean and manageable code.
+Creating a Library for OpenAI Solutions
+The code is organized into a library structure, enabling better management of functions and solutions related to OpenAI.
+Testing is introduced to ensure the reliability of the library, with an emphasis on creating meaningful tests that validate functionality without relying on specific outputs.
